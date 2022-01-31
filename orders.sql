@@ -7,8 +7,13 @@ create orders (
 );
 
 insert into orders (person_id, product_name, product_price, quantity)
-value (1, 'Pizza', 10, 1),
+values (1, 'Pizza', 10, 1),
 (2, 'burger', 7, 2),
 (3, 'taco', 5, 4),
 (4, 'wings', 10, 8),
 (5, 'burito', 4, 1);
+
+select * from orders
+select sum (product_price) from orders
+select sum (product_price) * from orders
+kn
