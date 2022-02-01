@@ -14,6 +14,7 @@ values (1, 'Pizza', 10, 1),
 (5, 'burito', 4, 1);
 
 select * from orders
+
 select sum (product_price) from orders
+
 select sum (product_price) * from orders
-kn

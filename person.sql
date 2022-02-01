@@ -17,15 +17,27 @@ VALUES  ('Daniel', 21, 172.24, 'red' ),
 
 
 SELECT * From person order by height Desc;
+
 select * from person order by height asc;
+
 select * from person order by age desc;
+
 select * from person WHERE age >20;
+
 select * from person WHERE age = 18;
+
 select * from person where age > 20 and < 30;
+
 select * from person where age <> 27;
+
 select * from person where favorite_color <> 'red'
+
 select * from person where favorite_color != 'red' and favorite_color != 'blue'
+
 select * from person where favorite_color = 'orange' and favorite_color = 'green';
+
 select * from person where favorite_color = 'orange' or favorite_color = 'green'
 or favorite_color = 'blue'
+
 select * from person where favorite_color = 'yellow' or favorite_color = 'purple'
+
